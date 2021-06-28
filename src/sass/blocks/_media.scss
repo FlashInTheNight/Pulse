@@ -5,7 +5,7 @@
             margin-top: 50px;
         }
         &__header {
-            font-size: 25px;
+            font-size: 30px;
             text-align: center;
         }
         &__subheader {
@@ -13,31 +13,43 @@
             font-size: 20px;
         }
         &__icons {
-            width: 325px;
-            justify-content: space-around;
-            margin-top: 50px;
+            width: 280px;
+            justify-content: space-evenly;
+            margin-top: 40px;
         }
         &__icon {
             font-size: 12px;
             width: 80px;
         }
+        .button {
+            &_main {
+                width: 260px;
+                margin-top: 45px;
+                font-size: 18px;
+                height: 55px;
+            }
+        }
     }
     .header {
+        justify-content: center;
         &__logo {
-            width: 130px;
+            width: 100px;
         }
         &__contacts {
             align-items: center;
+            width: 75px;
             a {
                 font-size: 12px;
                 text-align: center;
             }
             .button {
-                width: 70px;
+                width: 65px;
                 height: 45px;
+                font-size: 11px;
             }
         }
         &__official {
+            width: 100px;
             span {
                 font-size: 12px;
             }
@@ -46,7 +58,7 @@
     /* --------------------------> second block <---------------------------------- */
     .advantages {
         .title {
-            font-size: 25px;
+            font-size: 30px;
         }
         &__wrapper {
             margin-top: 20px;
@@ -64,6 +76,24 @@
         }
         &__descr {
             margin-top: 10px;
+        }
+    }
+    /* --------------------------> third block <---------------------------------- */
+    .consultation {
+        .title {
+            &_left {
+                text-align: center;
+                font-size: 19px;
+            }
+        }
+        .consultation__descr {
+            font-size: 14px;
+            text-align: center;
+        }
+        .feed-form {
+            width: 200px;
+            margin: 0 auto;
+            margin-top: 25px;
         }
     }
 }
